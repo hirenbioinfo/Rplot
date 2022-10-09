@@ -21,6 +21,4 @@ fig <- plot_ly(
     align = c('left', 'center'),
     font = list(color = c('#506784'), size = 12)
   ))
-
-
 fig
