@@ -1,5 +1,5 @@
 library(plotly)
-
+library(ggplot2)
 fig <- plot_ly(
   type = 'table',
   header = list(
@@ -21,5 +21,6 @@ fig <- plot_ly(
     align = c('left', 'center'),
     font = list(color = c('#506784'), size = 12)
   ))
+
 
 fig
